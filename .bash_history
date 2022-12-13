@@ -168,3 +168,17 @@ git init
 Git init
 cd ec2-user
 su ec2-user
+cd .git
+vi gifile.txt
+ls -lah
+rm .gifile.txt.swp
+git --h
+sudo yum update -y
+sudo yum install git -y
+git --list
+git version
+git init
+pwd
+cd .git
+mkdir sai-localrepo
+vi gifile.txt
