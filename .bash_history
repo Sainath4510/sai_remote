@@ -182,3 +182,119 @@ pwd
 cd .git
 mkdir sai-localrepo
 vi gifile.txt
+cd .git
+cd ../
+ls
+ls -lah
+git add .
+git commit -m "committing my files"
+git push origin master
+git push https://github.com/Sainath4510/sai_remote master
+ls
+vi file6.txt
+git add
+git add .
+git commit -m "adding new file"
+git push https://github.com/Sainath4510/sai_remote master
+git pull https://github.com/Sainath4510/sai_remote master
+ls
+ls -lrt
+cat file6.txt 
+git status
+pwd
+vi .bash_history 
+ls -lrt
+cd sai_local/
+ls -lrt
+git status
+ls -lrt
+cat gifile1.txt 
+vi ../.bash_history
+clear
+vi ../.bash_history
+vi ../. bash_history
+git branch
+git checkout main
+git checkout branch_1
+ls
+pwd
+cd sai_local/
+ls
+ls -lrt
+cd ..
+mkdir Sai_local2
+ls
+ls -lart
+cd .git/
+ls -lrt
+pwd
+cd ..
+ls -lah
+bash_history
+history
+#!/bin/bash filec.sh
+history
+vi filemodifier.sh 
+vi emplyee details.sh
+cat emplyee details.sh
+#!/bin/bash
+bin/bash emplyee details.sh
+#!/bin/sh
+#!/bin/bash emplyee details.sh
+#!
+Vi #!/bin/bash emplyee deatails.sh
+exit
+vi emplyee details.sh
+bash emplyee details.sh
+cat emplyee details.sh
+#! bin/bash emplyee details.sh
+#!bin/bash emplyee details.sh
+ls
+nano hiuser.sh
+ls
+bash hiuser.sh 
+ls -a
+ls -lah
+rm emplyee
+ls
+vi employee.sh
+ls -lrt
+git branch saibranch
+git branch
+git branch saibranch2
+git branch
+git git branch saibranch2 -d
+git --help
+git branch -d
+git branch
+git saibranch2 -d
+git branch -d saibranch2
+git branch 
+git branch saibranch2
+git branch
+git checkout saibranch
+pwd
+git checkout -b saibranch3
+git branch
+git checkout master
+vi file8.txt
+git add file8.txt
+git add.
+git add ..
+ls
+git status
+git commit -m "commiting file 8"
+git status
+git add --all
+git status
+git push https://github.com/Sainath4510/sai_remote master
+git stash pop
+vi file9.txt
+git stash save
+git stash pop
+git add file9.txt
+status
+git status
+git stash pop
+git stash drop
+git stash list

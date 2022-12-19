@@ -10,11 +10,14 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :wq
-|2,0,1670947012,,"wq"
+|2,0,1671429213,,"wq"
 :q
-|2,0,1670907192,,"q"
+|2,0,1671080315,,"q"
 :q!:
 |2,0,1670763636,,"q!:"
 :q!
@@ -23,6 +26,10 @@
 |2,0,1670752447,,"wq!"
 
 # Search String History (newest to oldest):
+??\a
+|2,1,1671085343,63,"\\a"
+? @$
+|2,1,1671085343,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -31,254 +38,280 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""0	CHAR	0
+	bash
+|3,1,0,0,1,0,1671085343,"bash"
 "1	LINE	0
 	java_pid=$(cut -d " " -f 2 $pid)
 |3,0,1,1,1,0,1670764759,"java_pid=$(cut -d \" \" -f 2 $pid)"
-""-	CHAR	0
+"-	CHAR	0
 	bash
-|3,1,36,0,1,0,1670907758,"bash"
+|3,0,36,0,1,0,1670907758,"bash"
 
 # File marks:
-'0  2  18  ~/file6.txt
-|4,48,2,18,1670947012,"~/file6.txt"
-'1  1  3  ~/.git/gifile.txt
-|4,49,1,3,1670946988,"~/.git/gifile.txt"
-'2  1  0  ~/.git/gifile.txt
-|4,50,1,0,1670945284,"~/.git/gifile.txt"
-'3  1  0  ~/.git/gifile.txt
-|4,51,1,0,1670944988,"~/.git/gifile.txt"
-'4  11  28  ~/filemodifier.sh
-|4,52,11,28,1670907762,"~/filemodifier.sh"
-'5  11  45  ~/filemodifier.sh
-|4,53,11,45,1670907664,"~/filemodifier.sh"
+'0  1  25  ~/file10.txt
+|4,48,1,25,1671429213,"~/file10.txt"
+'1  1  12  ~/file9.txt
+|4,49,1,12,1671168749,"~/file9.txt"
+'2  1  23  ~/file8.txt
+|4,50,1,23,1671167838,"~/file8.txt"
+'3  2  0  ~/employee.sh
+|4,51,2,0,1671091484,"~/employee.sh"
+'4  2  15  ~/emplyee
+|4,52,2,15,1671091003,"~/emplyee"
+'5  2  15  ~/emplyee
+|4,53,2,15,1671089813,"~/emplyee"
 '6  11  28  ~/filemodifier.sh
-|4,54,11,28,1670907524,"~/filemodifier.sh"
-'7  11  28  ~/filemodifier.sh
-|4,55,11,28,1670907524,"~/filemodifier.sh"
-'8  10  0  ~/filemodifier.sh
-|4,56,10,0,1670907192,"~/filemodifier.sh"
-'9  10  0  ~/filemodifier.sh
-|4,57,10,0,1670907192,"~/filemodifier.sh"
+|4,54,11,28,1671089645,"~/filemodifier.sh"
+'7  200  0  ~/.bash_history
+|4,55,200,0,1671082008,"~/.bash_history"
+'8  200  0  ~/.bash_history
+|4,56,200,0,1671080315,"~/.bash_history"
+'9  200  0  ~/.bash_history
+|4,57,200,0,1671080164,"~/.bash_history"
 
 # Jumplist (newest first):
--'  2  18  ~/file6.txt
-|4,39,2,18,1670947012,"~/file6.txt"
--'  1  3  ~/.git/gifile.txt
-|4,39,1,3,1670946988,"~/.git/gifile.txt"
--'  1  0  ~/file6.txt
-|4,39,1,0,1670946969,"~/file6.txt"
--'  1  0  ~/.git/gifile.txt
-|4,39,1,0,1670945284,"~/.git/gifile.txt"
--'  1  0  ~/.git/gifile.txt
-|4,39,1,0,1670945284,"~/.git/gifile.txt"
--'  1  0  ~/.git/gifile.txt
-|4,39,1,0,1670944988,"~/.git/gifile.txt"
--'  1  0  ~/.git/gifile.txt
-|4,39,1,0,1670944988,"~/.git/gifile.txt"
+-'  1  25  ~/file10.txt
+|4,39,1,25,1671429213,"~/file10.txt"
+-'  1  12  ~/file9.txt
+|4,39,1,12,1671168749,"~/file9.txt"
+-'  1  12  ~/file9.txt
+|4,39,1,12,1671168749,"~/file9.txt"
+-'  1  23  ~/file8.txt
+|4,39,1,23,1671167838,"~/file8.txt"
+-'  1  23  ~/file8.txt
+|4,39,1,23,1671167838,"~/file8.txt"
+-'  1  23  ~/file8.txt
+|4,39,1,23,1671167838,"~/file8.txt"
+-'  1  23  ~/file8.txt
+|4,39,1,23,1671167838,"~/file8.txt"
+-'  2  0  ~/employee.sh
+|4,39,2,0,1671091484,"~/employee.sh"
+-'  2  0  ~/employee.sh
+|4,39,2,0,1671091484,"~/employee.sh"
+-'  2  0  ~/employee.sh
+|4,39,2,0,1671091484,"~/employee.sh"
+-'  2  0  ~/employee.sh
+|4,39,2,0,1671091484,"~/employee.sh"
+-'  2  0  ~/employee.sh
+|4,39,2,0,1671091484,"~/employee.sh"
+-'  2  0  ~/employee.sh
+|4,39,2,0,1671091484,"~/employee.sh"
+-'  2  0  ~/employee.sh
+|4,39,2,0,1671091484,"~/employee.sh"
+-'  2  0  ~/employee.sh
+|4,39,2,0,1671091484,"~/employee.sh"
+-'  1  0  ~/employee.sh
+|4,39,1,0,1671091435,"~/employee.sh"
+-'  1  0  ~/employee.sh
+|4,39,1,0,1671091435,"~/employee.sh"
+-'  1  0  ~/employee.sh
+|4,39,1,0,1671091435,"~/employee.sh"
+-'  1  0  ~/employee.sh
+|4,39,1,0,1671091435,"~/employee.sh"
+-'  1  0  ~/employee.sh
+|4,39,1,0,1671091435,"~/employee.sh"
+-'  1  0  ~/employee.sh
+|4,39,1,0,1671091435,"~/employee.sh"
+-'  1  0  ~/employee.sh
+|4,39,1,0,1671091435,"~/employee.sh"
+-'  1  0  ~/employee.sh
+|4,39,1,0,1671091435,"~/employee.sh"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671091003,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671091003,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671091003,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671091003,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671091003,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671091003,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671091003,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671091003,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671091003,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671091003,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671091003,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671091003,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671091003,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671091003,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671091003,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671091003,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671089813,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671089813,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671089813,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671089813,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671089813,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671089813,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671089813,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671089813,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671089813,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671089813,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671089813,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671089813,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671089813,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671089813,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671089813,"~/emplyee"
+-'  2  15  ~/emplyee
+|4,39,2,15,1671089813,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
+-'  1  0  ~/emplyee
+|4,39,1,0,1671089678,"~/emplyee"
 -'  11  28  ~/filemodifier.sh
-|4,39,11,28,1670907762,"~/filemodifier.sh"
+|4,39,11,28,1671089645,"~/filemodifier.sh"
 -'  11  28  ~/filemodifier.sh
-|4,39,11,28,1670907762,"~/filemodifier.sh"
+|4,39,11,28,1671089645,"~/filemodifier.sh"
 -'  11  28  ~/filemodifier.sh
-|4,39,11,28,1670907762,"~/filemodifier.sh"
+|4,39,11,28,1671089645,"~/filemodifier.sh"
 -'  11  28  ~/filemodifier.sh
-|4,39,11,28,1670907762,"~/filemodifier.sh"
+|4,39,11,28,1671089645,"~/filemodifier.sh"
 -'  11  28  ~/filemodifier.sh
-|4,39,11,28,1670907762,"~/filemodifier.sh"
+|4,39,11,28,1671089645,"~/filemodifier.sh"
 -'  11  28  ~/filemodifier.sh
-|4,39,11,28,1670907762,"~/filemodifier.sh"
+|4,39,11,28,1671089645,"~/filemodifier.sh"
 -'  11  28  ~/filemodifier.sh
-|4,39,11,28,1670907762,"~/filemodifier.sh"
+|4,39,11,28,1671089645,"~/filemodifier.sh"
 -'  11  28  ~/filemodifier.sh
-|4,39,11,28,1670907762,"~/filemodifier.sh"
+|4,39,11,28,1671089645,"~/filemodifier.sh"
 -'  11  28  ~/filemodifier.sh
-|4,39,11,28,1670907762,"~/filemodifier.sh"
--'  11  45  ~/filemodifier.sh
-|4,39,11,45,1670907664,"~/filemodifier.sh"
--'  11  45  ~/filemodifier.sh
-|4,39,11,45,1670907664,"~/filemodifier.sh"
--'  11  45  ~/filemodifier.sh
-|4,39,11,45,1670907664,"~/filemodifier.sh"
--'  11  45  ~/filemodifier.sh
-|4,39,11,45,1670907664,"~/filemodifier.sh"
--'  11  45  ~/filemodifier.sh
-|4,39,11,45,1670907664,"~/filemodifier.sh"
--'  11  45  ~/filemodifier.sh
-|4,39,11,45,1670907664,"~/filemodifier.sh"
--'  11  45  ~/filemodifier.sh
-|4,39,11,45,1670907664,"~/filemodifier.sh"
--'  11  45  ~/filemodifier.sh
-|4,39,11,45,1670907664,"~/filemodifier.sh"
--'  11  45  ~/filemodifier.sh
-|4,39,11,45,1670907664,"~/filemodifier.sh"
+|4,39,11,28,1671089645,"~/filemodifier.sh"
 -'  11  28  ~/filemodifier.sh
-|4,39,11,28,1670907524,"~/filemodifier.sh"
+|4,39,11,28,1671089645,"~/filemodifier.sh"
 -'  11  28  ~/filemodifier.sh
-|4,39,11,28,1670907524,"~/filemodifier.sh"
+|4,39,11,28,1671089645,"~/filemodifier.sh"
 -'  11  28  ~/filemodifier.sh
-|4,39,11,28,1670907524,"~/filemodifier.sh"
+|4,39,11,28,1671089645,"~/filemodifier.sh"
 -'  11  28  ~/filemodifier.sh
-|4,39,11,28,1670907524,"~/filemodifier.sh"
--'  11  28  ~/filemodifier.sh
-|4,39,11,28,1670907524,"~/filemodifier.sh"
--'  11  28  ~/filemodifier.sh
-|4,39,11,28,1670907524,"~/filemodifier.sh"
--'  11  28  ~/filemodifier.sh
-|4,39,11,28,1670907524,"~/filemodifier.sh"
--'  11  28  ~/filemodifier.sh
-|4,39,11,28,1670907524,"~/filemodifier.sh"
--'  11  28  ~/filemodifier.sh
-|4,39,11,28,1670907524,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907513,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907192,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907192,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907192,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907192,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907192,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907192,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907192,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907192,"~/filemodifier.sh"
--'  10  0  ~/filemodifier.sh
-|4,39,10,0,1670907192,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
--'  5  0  ~/filemodifier.sh
-|4,39,5,0,1670907190,"~/filemodifier.sh"
+|4,39,11,28,1671089645,"~/filemodifier.sh"
 
 # History of marks within files (newest to oldest):
 
-> ~/file6.txt
-	*	1670947007	0
-	"	2	18
-	^	2	19
-	.	2	18
-	+	2	18
+> ~/file10.txt
+	*	1671429209	0
+	"	1	25
+	^	1	26
+	.	1	25
+	+	1	25
 
-> ~/.git/gifile.txt
-	*	1670944722	0
-	"	1	3
-	.	1	2
-	+	1	2
+> ~/file9.txt
+	*	1671168745	0
+	"	1	12
+	^	1	13
+	.	1	12
+	+	1	12
+
+> ~/file8.txt
+	*	1671167834	0
+	"	1	23
+	^	1	24
+	.	1	23
+	+	1	23
+
+> ~/employee.sh
+	*	1671091480	0
+	"	2	0
+	^	2	1
+	.	1	11
+	+	1	11
+
+> ~/emplyee
+	*	1671091000	0
+	"	2	15
+	^	2	16
+	.	2	15
+	+	2	15
+	p	1	0
 
 > ~/filemodifier.sh
-	*	1670907760	0
+	*	1671089640	0
 	"	11	28
 	^	11	29
 	.	11	28
@@ -315,6 +348,23 @@
 	+	4	27
 	+	9	9
 	+	11	28
+
+> ~/.bash_history
+	*	1671080790	0
+	"	200	0
+
+> ~/file6.txt
+	*	1670947007	0
+	"	2	18
+	^	2	19
+	.	2	18
+	+	2	18
+
+> ~/.git/gifile.txt
+	*	1670944722	0
+	"	1	3
+	.	1	2
+	+	1	2
 
 > ~/file5.txt
 	*	1670763131	0
